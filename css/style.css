@@ -1,0 +1,523 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@700&family=Caprasimo&family=IBM+Plex+Mono:wght@600;700&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Ysabeau+Office:wght@300&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ##################### navigation bar ########################### */
+#navbar {
+    display: grid;
+    grid-template-columns: 832px auto auto;
+    padding: 12px;
+}
+
+#navbar img{
+    height: 54px;
+    width: 284px;
+}
+
+.nlist1 {
+    margin: auto;
+    width: fit-content;
+}
+.nlist2 {
+    padding: 20px;
+}
+
+.nlist3 {
+    padding: 20px;
+}
+
+.nlist3 a{
+    text-decoration:  none;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.nlist3 .bgred {
+    background-color: tomato;
+    color: #fff;
+}
+
+/* ############### hero section################# */
+
+#hero-section {
+    background: url('../img/featured.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 562px;
+}
+
+.hero-content {
+    padding: 192px 362px;
+    color: #fff;
+    text-align: left;
+}
+
+.hero-content h4{
+    border-radius: 6px;
+    background-color: orange;
+    width: 86px;
+    height: 32px;
+    padding: 8px;
+}
+
+.hero-content h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 8px 0;
+}
+
+.hero-content p {
+    padding: 12px 0;
+}
+.hero-btn {
+    background-color: tomato;
+    width: 112px;
+    height: 48px;
+    padding: 16px;
+}
+
+
+.hero-content a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ###########editor's pick section########### */
+
+.ep-cons {
+    background-color:azure;
+    padding: 32px 124px;
+}
+
+#editorpick {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+    column-gap: 25px;
+    row-gap: 25px;
+    padding: 26px;
+    
+}
+
+/*#########editor's pick images list #####################*/
+
+#editorpick .ep1 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    grid-column: 1/ span 2;
+}
+
+#editorpick .ep1 img {
+    height: 172px;
+    width: 325px;
+}
+
+#editorpick .ep1 .ep-details{
+    text-align: left;
+    padding: 10px 8px;
+}
+
+
+#editorpick .ep-details h6{
+    background-color: blueviolet;
+    border-radius: 8px;
+    color: #fff;
+    margin: 8px;
+    padding: 12px;
+    width: 120px;
+}
+
+#editorpick .ep-details h4{
+    margin: 8px;
+}
+
+#editorpick .ep-details p{
+    margin: 8px;
+}
+
+
+
+#editorpick .ep2 {
+    background-color: #fff;
+    width: 348px;
+    padding: 12px;
+}
+
+#editorpick .ep2 h6 {
+    background-color: orange;
+    border-radius: 8px;
+    color: #fff;
+    margin: 8px;
+    padding: 12px;
+    width: 80px;
+    padding: 12px;
+}
+
+
+#editorpick .ep2 h4 {
+    margin: 8px;
+}
+
+
+#editorpick .ep3  {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    padding: 12px;
+}
+
+#editorpick .ep3 img {
+    height: 172px;
+    width: 325px;
+}
+
+#editorpick .ep3 .ep-details2 h6{
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: #fff;
+    margin: 8px;
+    padding: 12px;
+    width: 120px;
+}
+
+#editorpick .ep-details2 h4{
+    margin: 8px;
+}
+
+#editorpick .ep4  {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    padding: 12px;
+}
+
+#editorpick .ep4 img {
+    height: 172px;
+    width: 325px;
+}
+
+#editorpick .ep4 .ep-details4 h6{
+    background-color: orange;
+    border-radius: 8px;
+    color: #fff;
+    margin: 8px;
+    padding: 12px;
+    width: 80px;
+}
+
+#editorpick .ep4 .ep-details4 h4{
+    margin: 8px;
+}
+
+#editorpick .ep4 .ep-details4 p{
+    margin: 8px;
+}
+
+#editorpick .ep5  {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    padding: 12px;
+}
+
+#editorpick .ep5 img {
+    height: 172px;
+    width: 325px;
+}
+
+#editorpick .ep5 .ep-details5 h6{
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: #fff;
+    margin: 8px;
+    padding: 12px;
+    width: 110px;
+}
+
+#editorpick .ep5 .ep-details5 h4{
+    margin: 8px;
+}
+
+#editorpick .ep5 .ep-details5 p{
+    margin: 8px;
+}
+
+
+#editorpick .ep6 {
+    background-color: #fff;
+    width: 348px;
+    height: 200px;
+    padding: 12px;
+}
+
+#editorpick .ep6 h6 {
+    background-color: orange;
+    border-radius: 8px;
+    color: #fff;
+    margin: 8px;
+    padding: 12px;
+    width: 80px;
+    padding: 12px;
+}
+
+#editorpick h4 {
+    margin: 8px;
+}
+
+#editorpick p {
+    margin: 8px;
+}
+
+#editorpick .ep7 img {
+    height: 172px;
+    width: 325px;
+}
+
+#editorpick .ep7 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    grid-column: 2/span 2;
+    padding: 12px;
+    width: 790px;
+}
+
+#editorpick .ep-details7 h6{
+    background-color: blueviolet;
+    border-radius: 8px;
+    color: #fff;
+    margin: 8px;
+    padding: 12px;
+    width: 120px;
+}
+
+#editorpick .ep-details7 h4{
+    margin: 8px;
+}
+
+#editorpick .ep-details7 p{
+    margin: 8px;
+}
+
+
+/*########## FOOTER SECTION ##################  */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 246px;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-template-rows: auto ;
+    column-gap: 22px;
+    justify-content: center;
+    row-gap: 22px;
+    padding: 32px 0;
+    
+}
+
+#footer img{
+    width: 162px;
+}
+
+#footer  a{
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px;
+    color: #fff;
+}
+
+#footer p{
+    font-size: 12px;
+    padding: 6px;
+    color: #fff;
+}
+
+#footer h1{
+    font-size: 12px;
+    padding: 6px;
+    color: #fff;
+}
+
+#footer input{
+    width: 100%;
+    margin: 2px;
+}
+
+#footer #subscribe{
+    background-color: tomato;
+}
+
+#footer .joinNow{
+    background-color: orange;
+    padding: 6px 4px;
+    
+}
+
+
+#footer .copyr{
+    background-color: gray;
+    grid-column: 1 / span 4;
+    text-align: center;
+    padding: 12px;
+}
+
+
+/* #################################################################### */
+/* about.html */
+
+section {
+    background-color:gainsboro;
+    padding: 24px 340px;
+}
+
+.aboutSection {
+    display: grid;  
+    grid-template-columns: 720px 240px ;
+    column-gap: 42px;
+    justify-content: center;
+    
+}
+
+.aboutSection .about-content {
+    background-color: #fff;
+    padding: 24px;
+    
+}
+.aboutSection  h1{
+    padding: 26px;
+    font-size: 32px;
+    text-align: left;
+    
+}
+
+.aboutSection  p{
+    text-align: left;
+    padding: 12px;
+    
+}
+
+.joinClub {
+    background-color: tomato;
+    width: 342px;
+    height: 240px;
+    padding: 12px;
+}
+
+.joinClub h2 {
+    color: #fff;
+    padding: 8px;
+}
+
+.joinClub p {
+    color: #fff;
+    text-align: left;
+    padding: 8px;
+}
+
+.joinClub .joinNowbtn {
+    background-color: black;
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+.joinClub .joinNowbtn a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+/* #################### article section ##################### */
+
+/* acticle.html */
+article {
+    background-color:rgb(215, 210, 210);
+    padding: 24px 340px;
+}
+.article-section {
+    display: grid;
+    grid-template-columns: 620px 240px;
+    column-gap: 24px;
+    justify-content: space-between;
+}
+
+.article-content {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.article-section .userpost{
+    background-color: rgb(225, 219, 219);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 22px 0;
+}
+
+.article-section .userpost h6{
+    border-radius: 6px;
+    background-color: blueviolet;
+    padding: 6px;
+}
+
+
+.link-section .categories {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 22px;
+}
+
+.link-section .categories h3{
+    padding: 6px;
+
+}
+
+.link-section .categories a{
+    text-decoration: none ;
+    color: black;
+
+}
+
+.link-section .joinClub2 {
+    background-color: orange;
+    padding: 20px;
+}
+
+.link-section .joinClub2 h3{
+    padding: 4px;
+}
+
+.link-section .joinClub2 p{
+    padding: 4px;
+}
+
+.link-section .joinClub2 .joinNowbtn{
+    background-color: black;
+    text-align: center;
+    padding: 4px;
+    margin: 2px;
+}
+
+.link-section .joinClub2 .joinNowbtn a{
+    text-decoration: none;
+    color:#fff;
+}
